@@ -1,0 +1,245 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.5fr 6fr;
+    grid-gap: 30px;
+}
+
+.sectionA1 {
+    position: sticky;
+    top: 30px;
+    text-align: center;
+
+}
+
+.pro_img {
+    position: relative;
+    border-radius: 100%;
+    width: 40%;
+    border-bottom: 2px solid greenyellow;
+}
+
+#S_Row_1 {
+    box-shadow: 0px 0px 12px 2px #a4a4a4;
+    border: 0.8px solid white;
+    border-radius: 8px;
+
+}
+
+#S_Row_2 {
+    margin-top: 9px;
+    position: relative;
+    padding: 9px;
+    border: 0.9px solid wheat;
+    border-radius: 9px;
+    box-shadow: 0px 0px 12px 3px #3b3b3b;
+}
+
+.S_RoW_2 {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+figcaption,
+p,
+span {
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+#P_Lan_g::-webkit-meter-bar {
+    background-color: rgb(255, 0, 0);
+    color: blueviolet;
+    contain: red;
+}
+
+#S_Row_3 {
+    margin-top: 10px;
+    text-align: left;
+    
+    border-radius: 9px;
+    padding: 9px;
+    overflow-y: scroll;
+    color: rgb(255, 255, 255);
+    border: 0.9px solid rgb(255, 175, 28);
+    box-shadow: 0px 0px 12px 3px #666666;
+
+}
+
+#S_Row_3::-webkit-scrollbar {
+    width: 9px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-right: 9px;
+}
+
+#S_Row_3::-webkit-scrollbar:hover {
+    background-color: rgb(134, 134, 134);
+    color: #666666;
+    /* width of the scrollbar */
+}
+
+#S_Row_3::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    /* color of the scrollbar thumb */
+    border-radius: 50px;
+    /* roundness of the scrollbar thumb */
+    border: 3px solid #f1f1f1;
+    /* border around the scrollbar thumb */
+}
+
+.prolang,
+.U_u {
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: left;
+    width: 7fr;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    overflow-y: hidden;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+#F_1_ooter {
+    margin-top: 10px;
+    
+    
+}
+.G_rid{
+    padding: 9px;
+    display: grid;
+    grid-template-columns: repeat(3,6fr);
+    grid-template-rows: repeat(2,4fr);
+    grid-gap: 20px;
+}
+
+.con_tact {
+    margin: 6px;
+}
+
+
+.footer {
+    background-color: #666666;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    bottom: -8px;
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 2fr);
+}
+
+.abhi {
+    padding: 20px;
+    border-bottom: 0.01px solid white;
+    border-radius: 50px;
+    background: url("download.png");
+    background-repeat: no-repeat;
+    backdrop-filter: blur(90%);
+    background-position: 90%;
+    color: gray;
+}
+
+.I_n_fO {
+    padding: 0%;
+    display: grid;
+    
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 6fr);
+}
+.Bo_x{
+    border-bottom:2px solid rgb(230, 0, 255) ;
+    border-right: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.I_No {
+    margin-top: 0%;
+    padding-bottom: 1px;
+}
+
+
+
+.I_ter {
+    
+    padding: 5px;
+    border-bottom: 0.1em solid grey;
+    border-right: 0.1em solid grey;
+    border-radius: 6px;
+    margin-top: 0%;
+}
+
+.TiTle {
+    color: #6afe48;
+    font-size: 28px;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: tomato;
+}
+.CO_de{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.CO_de:hover,.PRO_view:hover{
+    border:0.1px solid white;
+    background-color: rgba(100, 100, 100, 0.502);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    transition: 4s;
+    margin-left: 10px;
+}
+.PRO_view{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.P_ro_ject {
+    margin: 10px;  
+}
+.Bo_x:hover{
+    background: white;
+    color:black;
+    transition: 3s;
+}
+.I_ter:hover{
+    background: rgb(128, 128, 128);
+    color:rgb(255, 255, 255);
+}
+.h_o_b_b_y{
+    border: 1px solid red;
+}
+#HoBBy{
+    margin-left: 9px;
+    text-decoration: underline;
+    text-decoration-color: #ff009d;
+    font-weight: 500;
+}
+.ho_bb{
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+
+}
